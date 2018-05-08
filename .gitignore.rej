@@ -1,0 +1,20 @@
+diff a/.gitignore b/.gitignore	(rejected hunks)
+@@ -3,6 +3,15 @@
+ */DerivedDataCache
+ */Intermediate
+ */Saved
+-StealthGame/Content/StarterContent
+ *.VC.db
+-*/.vs
+\ No newline at end of file
++*/.vs
++BattleTank/Content/StarterContent/Materials/M_Concrete_Poured.uasset
++BattleTank/Content/StarterContent/
++BattleTank/Content/Tank/track_001.uasset
++BattleTank/Content/Tank/tank_green_002.uasset
++BattleTank/Content/Tank/tank_green_001.uasset
++BattleTank/Content/Tank/tank_green.uasset
++BattleTank/Content/Tank/tank_fbx_Turret.uasset
++BattleTank/Content/Tank/tank_fbx_Track.uasset
++BattleTank/Content/Tank/tank_fbx_Body.uasset
++BattleTank/Content/Tank/tank_fbx_Barrel.uasset

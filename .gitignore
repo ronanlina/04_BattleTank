@@ -5,4 +5,8 @@
 */Saved
 StealthGame/Content/StarterContent
 *.VC.db
-*/.vs
+*/.vsBattleTank/Content/BattleGround_BuiltData.uasset
+BattleTank/Content/StarterContent/
+BattleTank/Content/Tank/tank_fbx_Barrel.uasset
+BattleTank/Content/Tank/
+BattleTank/.vs/
