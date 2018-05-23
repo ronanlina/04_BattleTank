@@ -19,7 +19,26 @@ public:
 
 	ATank * GetControlledTank() const;
 
+	virtual void BeginPlay() override;
+
+	virtual void Tick(float DeltaTime) override;
+
 protected:
 
-	virtual void BeginPlay() override;
+	UPROPERTY(EditAnywhere)
+		float CrossHairXLocation = 0.5;
+    
+	UPROPERTY(EditAnywhere)
+		float CrossHairYLocation = 0.33333;
+
+	UPROPERTY(EditAnywhere)
+		float LineTraceRange = 1000000.f;
+
+private:
+
+	void AimTowardsCrosshair();
+	bool GetSightRayHitLocation(FVector& OutHitLocation) const;
+	bool GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const;
+	bool GetLookVectorHitDirection(FVector LookDirection, FVector& HitLocation) const;
+
 };
